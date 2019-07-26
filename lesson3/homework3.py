@@ -45,6 +45,7 @@ def request_to_site():
             print(request.text)
     except Exception as err:
         print(f'Error: {err}')
+        exit(1)
 
 if __name__ == '__main__':
     request_to_site()
